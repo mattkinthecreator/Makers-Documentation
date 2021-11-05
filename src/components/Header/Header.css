@@ -1,0 +1,23 @@
+header {
+  background-color: #20232a;
+  color: #fff;
+  padding: 20px 0;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+}
+
+.navbar__right {
+  width: 600px;
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+}
+
+.navbar__right input {
+  background-color: #ffe600;
+  border: none;
+  border-radius: 10px;
+}

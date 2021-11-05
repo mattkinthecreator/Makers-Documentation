@@ -1,0 +1,42 @@
+.wrapper {
+  display: flex;
+}
+
+.topic-details {
+  width: 70%;
+  padding: 0 50px;
+  height: 100vh;
+  overflow-y: scroll;
+}
+
+.topic-details img {
+  width: 500px;
+  border-radius: 10px;
+}
+
+.topic-details h1 {
+  font-size: 60px;
+}
+
+.topic-details h2 {
+  font-size: 36px;
+}
+
+.sub-topic {
+  border-bottom: 1px solid gray;
+}
+
+.topic-details_btns button {
+  font-size: 19px;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.topic-details_btns img {
+  width: 30px;
+}
+
+.topic-details_btns button:hover {
+  transform: scale(1.1);
+}
